@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter', sans-serif;;
+}
+
+body {
+
+	background-color: black;
+
+
+}
+
+.logo {
+
+	margin-top: 15px;
+	text-align: center;
+	padding: 20px;
+	
+
+
+}
+
+.texto1 {
+
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.fundo1 {
+
+	background-image: url('../midia/fundo.png');
+	background-repeat: no-repeat;
+}
+
+.esquerda {
+
+	margin-left: 35px;
+	width: 610px ;
+	height: 610px ;
+	background-color: transparent;
+	padding: 45px;
+	padding-top: 80px;
+}
+
+
+
+
+
+a.botao1 {
+			
+			
+			text-decoration: none;
+			align-items: center;
+			background-color: #009748;
+			justify-content: center;
+
+			
+	height: 56px;
+	width: 512px;
+
+			border-radius: 10px;
+			font-family: 'Inter';		
+			font-size: 16px;	
+			display: flex;
+			color: #FFFFFF;
+			margin: 0 auto;
+		}
+
+a.botao2 {
+			
+			
+			text-decoration: none;
+			align-items: center;
+			background-color: transparent;
+			justify-content: center;
+
+			
+	height: 56px;
+	width: 512px;
+
+			border-radius: 10px;
+			font-family: 'Inter';		
+			font-size: 16px;	
+			display: flex;
+			color: #FFFFFF;
+			margin: 0 auto;
+			border: 1px solid #FFFFFF;
+		}
+
+.comentario {
+
+	color: #C0C0C0;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Inter';
+	font-size: 12px;
+}
+
+
+/*SEÇÃO 2 ------------------*/
+
+
+.segunda {
+
+	background-color: #222634;
+	height: 850px;
+
+	
+}
+
+.notebook_esquerda {
+
+	width: 700px;
+	height: 800px;
+	float: left;
+	padding: 10px;
+	margin-left: 50px;
+	padding-top: 200px;
+
+
+}
+.textodireita {
+
+	width: 600px;
+	height: 140px;
+	position: absolute;
+	background-color: transparent;
+	margin-left: 690px;
+	margin-top: 330px;
+}
+.assista1 {
+
+	
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+
+color: #FFFFFF;
+
+}
+
+.assista2 {
+
+ 	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #F9F9F9;
+opacity: 0.8;
+
+}
+
+/*SEÇÃO 3 ------------------*/
+
+.terceira {
+
+	background-color: black;
+	height:890px ;
+}
+
+.detalhes {
+
+	position: absolute;
+	width:  580px;
+	height: 200px;
+	color: white;
+	background-color: transparent;
+	margin-top: 335px;
+	margin-left: 200px;
+}
+
+.textotrouxa {
+
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+color: #F9F9F9;
+
+opacity: 0.8;
+
+}
+
+.duasfotos {
+
+	float: right;
+	margin-top: 320px;
+	margin-right: 200px;
+}
+
+.botao3 {
+
+		text-decoration: none;
+			align-items: center;
+			background-color: #009748;
+			justify-content: center;
+
+			
+	height: 56px;
+	width: 512px;
+
+			border-radius: 10px;
+			font-family: 'Inter';		
+			font-size: 16px;	
+			display: flex;
+			color: #FFFFFF;
+		
+			margin: 0 auto;
+			margin-top: 50px;
+
+		}
+
+/*SEÇÃO 4 ------------------*/
+
+.quarta {
+
+	background-color: #222634;
+	height: 850px;
+
+	
+}
+
+.note_branco {
+
+	width: 700px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	margin-left: 150px;
+	padding-top: 230px;
+	background-color: transparent;
+
+
+}
+.baixar_recursos {
+
+	width: 600px;
+	height: 140px;
+	position: absolute;
+	background-color: transparent;
+	margin-left: 760px;
+	margin-top: 350px;
+}
+.baixar1 {
+
+	
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+
+color: #FFFFFF;
+
+}
+
+.baixar {
+
+ 	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #F9F9F9;
+opacity: 0.8;
+
+}
+
+/*SEÇÃO 5 ------------------*/
+
+
+.penultima {
+
+	height: 630px;
+}
+
+.disponivel {
+
+	margin: 0 auto;
+	margin-top: 200px;
+
+	background-color: transparent;
+	height: 100px;
+	width: 1000px;
+}
+
+.textinho {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+color: #FFFFFF;
+
+
+	text-align: center;
+}
+
+.tv {
+
+	margin-left: 220px;
+
+}
+
+.computador {
+
+	margin-left:60px;
+
+}
+
+.celular {
+
+	
+	margin-left: 70px;
+
+}
+
+.texto-tv {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+color: #FFFFFF;
+
+	margin-left: 375px;
+
+
+}
+
+.texto-computador {
+
+	
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+color: #FFFFFF;
+
+	margin-left: 14px;
+	margin-top: -40px;
+	text-align: center;
+
+
+}
+
+.texto-celular {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+color: #FFFFFF;
+
+	margin-top: -40px;
+	float: right;
+	margin-right: 210px;
+	
+}
+
+ /* ULTIMA SESSÃ0 ---------------------------*/
+
+.ultima {
+
+	background-color: #222634;
+	height: 800px;
+
+}
+
+.contato {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+
+	text-align: center;
+	padding-top: 120px;
+}
+
+.box {
+
+	background-color: transparent;
+	height: 500px;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+
+
+}
+
+.nome {
+
+	text-align: center;
+	border-radius: 20px;
+
+
+	
+}
+
+.email {
+
+	text-align: center;
+	border-radius: 20px;
+	
+
+}
+
+.mensagem1 {
+
+	text-align: center;
+	border-radius: 20px;
+	
+}
+
+.nome-email {
+
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 10px;
+	height: 60px;
+	width: 550px;
+	background-color: #2E3447;
+	color: white;
+}
+
+
+
+.caixa-maior {
+
+	height: 180px;
+	width: 520px;
+	padding: 15px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #2E3447;
+	color: white;
+	text-align: center;
+}
+
+.botao4 {
+
+	text-decoration: none;
+			align-items: center;
+			background-color: #009748;
+			justify-content: center;
+
+			
+	height: 56px;
+	width: 550px;
+
+			border-radius: 10px;
+			font-family: 'Inter';		
+			font-size: 16px;	
+			display: flex;
+			color: #FFFFFF;
+		
+			margin: 0 auto;
+			margin-top: -105px;
+}
+
+	
+
+
+/* RODAPÉ---------------------------*/
+
+.rodape {
+
+	height: 280px;
+	background-color: #222634;
+}
+
+.logo2 {
+
+	margin-left: 42%;
+
+}
+
+.texto-rodape {
+
+	height: 170px;
+	width: 1000;
+	background-color: transparent;
+}
+
+.texto-rodape {
+
+	color: white;
+	text-align: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: 25px;
+
+
+color: #FFFFFF;
+}
+
+.texto-rodape > a {
+
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+.caixa-rodape {
+
+
+	height: 30px;
+	width: 820px;
+	background-color: transparent;
+	margin: 0 auto;
+	margin-top: -120px;
+
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+
+align-items: center;
+text-align: center;
+
+color: #C0C0C0;
+}
+
+.rodape-baixo {
+
+	height: 40px;
+	width: 1160px;
+	background-color: transparent;
+	margin: 0 auto;
+	text-align: center;
+
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #C0C0C0;
+	
+
+}
+
